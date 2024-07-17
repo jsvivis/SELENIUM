@@ -1,0 +1,343 @@
+{
+  "id": "5ac1467b-ec35-4a81-a380-f5e7fedc3eff",
+  "version": "2.0",
+  "name": "Mundo SENAI",
+  "url": "https://www.mundosenai.com.br",
+  "tests": [{
+    "id": "cc3891b3-c70d-45e9-9100-54e163b1677f",
+    "name": "CT_MundoSENAI",
+    "commands": [{
+      "id": "4c18136c-b6aa-4c96-bf00-3c9c38b54850",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9315c6ee-b000-4475-b005-cf11c17ed20b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x731",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c56de13-4f00-4f75-a0ea-775963ae5a93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cursos",
+      "targets": [
+        ["linkText=Cursos", "linkText"],
+        ["css=.menu-display:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cursos')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://mundosenai.com.br/cursos/')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3ba077-b8d1-4888-b29c-76c997fb13dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreira",
+      "targets": [
+        ["linkText=Carreira", "linkText"],
+        ["css=.menu-display:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Carreira')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.mundosenai.com.br/carreira/')])[4]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "256415ce-e7f7-43f3-8a02-843b8cc92ee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav",
+      "targets": [
+        ["css=.nav", "css:finder"],
+        ["xpath=//nav/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06288795-054b-4e5d-ab7d-106ed7245080",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Notícias",
+      "targets": [
+        ["linkText=Notícias", "linkText"],
+        ["css=.nav > li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Notícias')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://mundosenai.com.br/noticias/')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb5e0af-7cf8-46b3-8b42-34ae01ca45d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search > .search-box-header",
+      "targets": [
+        ["css=.search > .search-box-header", "css:finder"],
+        ["xpath=(//img[@alt='busca lupa'])[2]", "xpath:img"],
+        ["xpath=//li[8]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de2f91df-4243-4ed6-b4de-c2d6df003d78",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "843afb9c-8975-4854-9a14-19fbe57ee5be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=.body2", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fechar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1663c0fb-9084-48b4-b8cb-73939b7b9dab",
+    "name": "CT_MundoSENAI2",
+    "commands": [{
+      "id": "bedf7994-1b0e-49e0-ba73-4c4b7afd6057",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03bf490a-84dc-436b-93e7-b756ffb79172",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x731",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d46bc0c2-8a73-4fa1-807f-1c892cb7f84a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search > .search-box-header",
+      "targets": [
+        ["css=.search > .search-box-header", "css:finder"],
+        ["xpath=(//img[@alt='busca lupa'])[2]", "xpath:img"],
+        ["xpath=//li[8]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1510f6b6-b915-4313-b872-5507674cd993",
+      "comment": "",
+      "command": "click",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd25f7ed-66cb-4f57-9968-e7305c4c58dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "administração"
+    }, {
+      "id": "250532b5-b3e3-474e-b454-0934435dbbe0",
+      "comment": "",
+      "command": "type",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "administração"
+    }, {
+      "id": "789eaac5-23c4-48ae-b7bb-d9672f6ee175",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e9cc7c4a-b7cf-444f-b9f2-5e18194d5c64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search > .search-box-header",
+      "targets": [
+        ["css=.search > .search-box-header", "css:finder"],
+        ["xpath=(//img[@alt='busca lupa'])[2]", "xpath:img"],
+        ["xpath=//li[8]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a91eba-0d35-4031-b36f-e27ca8b2a2cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b9c9196-dddf-4c32-ad62-d384a713ba16",
+      "comment": "",
+      "command": "click",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9eaab1b-6592-4428-a5ea-6bb2120e6362",
+      "comment": "",
+      "command": "click",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c93e4a8e-7751-460c-9ce5-938378ecfa92",
+      "comment": "",
+      "command": "click",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7c6e7ff-3876-4e1b-bfdc-aa602d36c663",
+      "comment": "",
+      "command": "type",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "segurança do trabalho"
+    }, {
+      "id": "1c1a0e53-387f-49d5-9e56-29adc1ed4e06",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=termo_busca",
+      "targets": [
+        ["id=termo_busca", "id"],
+        ["name=search", "name"],
+        ["css=#termo_busca", "css:finder"],
+        ["xpath=//input[@id='termo_busca']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a9e91075-8a9e-4c0a-9ad6-4f90ff0f4500",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.offset-1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[25]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5047ad2a-2195-44eb-973e-26fadbc5f728",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acesse a Loja",
+      "targets": [
+        ["linkText=Acesse a Loja", "linkText"],
+        ["css=.botao-escola-digital:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Acesse a Loja')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.futuro.digital/')])[3]", "xpath:href"],
+        ["xpath=//main/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acesse a Loja')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3954",
+      "windowTimeout": 2000
+    }, {
+      "id": "cf8fc4ce-9a92-44e1-a70f-6655bda0e7bd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3954}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dc9554a-da5e-4481-8fd6-fa204721a605",
+      "comment": "",
+      "command": "select",
+      "target": "css=.o-0",
+      "targets": [],
+      "value": "label=Minas Gerais"
+    }, {
+      "id": "81d7c4b3-cada-449f-b367-de1f17e22cb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-action-primary > .vtex-button__label",
+      "targets": [
+        ["css=.bg-action-primary > .vtex-button__label", "css:finder"],
+        ["xpath=//section[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "131b57e6-7833-4102-a592-d87c0948da61",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc3891b3-c70d-45e9-9100-54e163b1677f"]
+  }],
+  "urls": ["https://www.mundosenai.com.br/"],
+  "plugins": []
+}
