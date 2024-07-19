@@ -1,0 +1,170 @@
+{
+  "id": "eac91b93-2c23-454e-a948-1237be4d609a",
+  "version": "2.0",
+  "name": "FiltrodeBusca",
+  "url": "https://leitura.com.br",
+  "tests": [{
+    "id": "857de472-a95f-444f-8808-cadd520171df",
+    "name": "CT_FiltroBusca",
+    "commands": [{
+      "id": "960f9ce3-bb1d-4861-8b2c-2272f2b190fe",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php?route=common/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adf96866-fc02-4d3d-9e3c-2b5294f6c4c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x731",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc6fae0a-faa8-4807-98d3-a200d76c6c84",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "992a0c39-90ce-42f5-aca8-b033ddda2d71",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cassandra clare"
+    }, {
+      "id": "b116c8a0-340d-443d-98a6-0111731e1990",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cac255fc-c126-4039-a3aa-32a05681b9bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adb7e659-c699-42bc-b4d3-2f5ae4ce3c12",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "box instrumentos mortais"
+    }, {
+      "id": "16da4d0b-e667-4ee7-b2e6-7ea8ef7297e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "099b4c3a-bddd-48ab-bd07-fbb35f3a1372",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf8d1f00-e116-4514-ab7f-be0a5278fdb6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f97328c8-ca35-49d8-a541-a14c3447daa9",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "as mulheres que corriam com os lobos"
+    }, {
+      "id": "5ee4b871-4c3a-4c3e-8583-0de00fb1a01e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43c073bc-1f91-4c59-a7d8-456a6fc1c52d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88209989-925d-426b-97aa-38007acb06ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["857de472-a95f-444f-8808-cadd520171df"]
+  }],
+  "urls": ["https://leitura.com.br/"],
+  "plugins": []
+}
