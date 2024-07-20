@@ -1,0 +1,113 @@
+{
+  "id": "ad6d157b-0bf6-4ab9-87c3-ba38b6883bfb",
+  "version": "2.0",
+  "name": "Leitura/CasoTeste2",
+  "url": "https://leitura.com.br/index.php?route=checkout/cart",
+  "tests": [{
+    "id": "47d06d0e-e04f-4e64-95e2-bdd3be0ca74b",
+    "name": "CT_consulta de frete",
+    "commands": [{
+      "id": "bc92869f-0cb0-4e2c-aad6-49135e8896f4",
+      "comment": "",
+      "command": "open",
+      "target": "https://leitura.com.br/index.php?route=checkout/cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdf28da8-3b1b-46fd-9872-f965688d0785",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x731",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ff4bcf-adad-49b6-ad9c-be00958b3cc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-toggle > .fa",
+      "targets": [
+        ["css=.accordion-toggle > .fa", "css:finder"],
+        ["xpath=//div[@id='accordion']/div/div/h4/a/i", "xpath:idRelative"],
+        ["xpath=//h4/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61af0da6-347c-4183-8b83-edc415da4536",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-postcode",
+      "targets": [
+        ["id=input-postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#input-postcode", "css:finder"],
+        ["xpath=//input[@id='input-postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse-shipping']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f28b3c-2802-4466-a1cc-cc09d51f530b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-postcode",
+      "targets": [
+        ["id=input-postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#input-postcode", "css:finder"],
+        ["xpath=//input[@id='input-postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse-shipping']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "36774000"
+    }, {
+      "id": "d4510249-5ecc-40d9-b938-300d1d493808",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-quote",
+      "targets": [
+        ["id=button-quote", "id"],
+        ["css=#button-quote", "css:finder"],
+        ["xpath=//button[@id='button-quote']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse-shipping']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calcular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d460824d-433c-40ab-8562-d2e4b831306a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(6) input",
+      "targets": [
+        ["css=.radio:nth-child(6) input", "css:finder"],
+        ["xpath=(//input[@name='shipping_method'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='modal-shipping']/div/div/div[2]/div[4]/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee78c90a-37b4-491b-bc47-eb57e5f3a80c",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-shipping",
+      "targets": [
+        ["id=button-shipping", "id"],
+        ["css=#button-shipping", "css:finder"],
+        ["xpath=//input[@id='button-shipping']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-shipping']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55a9e1fe-336d-4a12-a275-1b37f8ce56a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://leitura.com.br/", "https://leitura.com.br/index.php?route=checkout/cart"],
+  "plugins": []
+}
