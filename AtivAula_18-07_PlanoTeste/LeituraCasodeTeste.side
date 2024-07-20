@@ -1,0 +1,295 @@
+{
+  "id": "681c2592-2685-4a03-96c8-7e53b4bad305",
+  "version": "2.0",
+  "name": "Leitura/CasodeTeste",
+  "url": "https://leitura.com.br",
+  "tests": [{
+    "id": "e7832ea3-2bbf-4bf4-813a-02569e371864",
+    "name": "CT_Filtro de Busca",
+    "commands": [{
+      "id": "aa2cb5a2-cc31-484d-85fa-888326acb565",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9cd86e7-bbd0-4f1b-b6a4-b22af353a722",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x731",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8da7b89-94c3-47fd-b4ef-4e32e0a9631a",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ea91e9-e47f-4dfd-8efb-6c564e2070f6",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a biblioteca da meia noite"
+    }, {
+      "id": "0a860190-e09e-41bf-b4c4-dfecbac838b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901dff6e-a929-4b25-9a7d-a88c6a6528ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "167ba7ed-4c8c-4204-a010-2854aef7d1b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-layout:nth-child(1) .hidden-xs",
+      "targets": [
+        ["css=.product-layout:nth-child(1) .hidden-xs", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a21c6f0-29a0-40f5-aefe-c298e5221c78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,401.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12d84f7d-b114-4981-8830-06aafc01963c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.head-one .row",
+      "targets": [
+        ["css=.head-one .row", "css:finder"],
+        ["xpath=//header/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bffaff86-5b81-4796-a0bf-fae5a6fda89b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.input-group-btn > .btn-default",
+      "targets": [
+        ["css=.input-group-btn > .btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4257cb3-4f82-444e-95c6-ca8ed6be327c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.input-group-btn > .btn-default",
+      "targets": [
+        ["css=.input-group-btn > .btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c35c756-7aa0-4db9-a957-024e162ebc26",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jane austen"
+    }, {
+      "id": "3c613378-eb53-4fac-885c-81d6353b2526",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9a8b523a-99e4-4620-aa75-8e9e3d3f7e9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-layout:nth-child(3) .hidden-xs",
+      "targets": [
+        ["css=.product-layout:nth-child(3) .hidden-xs", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div[3]/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e24036cc-e2c5-4a7e-a5f7-11190978af28",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,401.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b356692e-cd40-4e7a-b2eb-731607d457c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.head-one .row",
+      "targets": [
+        ["css=.head-one .row", "css:finder"],
+        ["xpath=//header/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8387014b-16d0-4471-b5e3-7bf7f67d175e",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "suma de letras"
+    }, {
+      "id": "e22877c6-138f-4ef2-ae6f-4f3299f16f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8ba8c5-01c7-4cf7-ad3d-291c52b547e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-sm",
+      "targets": [
+        ["css=.hidden-sm", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Avise-me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be907fb8-19e8-47b9-9966-61761ee11d8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cancel-avise",
+      "targets": [
+        ["id=cancel-avise", "id"],
+        ["css=#cancel-avise", "css:finder"],
+        ["xpath=//button[@id='cancel-avise']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-avise']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancelar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75f93e3f-b025-427f-bc2f-63c99272447e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.head-one .row",
+      "targets": [
+        ["css=.head-one .row", "css:finder"],
+        ["xpath=//header/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f861010e-4201-45f6-a3b1-96a04ef8d2cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input-lg", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "galera"
+    }, {
+      "id": "15f4b801-6820-4ea3-8a3f-7fe6eb1bff6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff739b0f-b7e3-441a-985f-c4bceac562c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-layout:nth-child(1) .hidden-xs",
+      "targets": [
+        ["css=.product-layout:nth-child(1) .hidden-xs", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65976ff8-4fe2-4ebb-9b28-82b295626c88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,401.6666564941406)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a435c2d8-92cb-4c4b-bb7b-8994563876e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7832ea3-2bbf-4bf4-813a-02569e371864"]
+  }],
+  "urls": ["https://leitura.com.br/"],
+  "plugins": []
+}
